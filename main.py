@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 
-BOT_TOKEN = "7609219087:AAGT1NMeizZcSQgNGyjDLUisYNAbI75ql10"
+BOT_TOKEN = "8183222059:AAF7Q0_fdAlfmy6QV0lwdA-Tcia9YSO-13c"
 
 # Function to handle incoming messages
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
