@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 import os
 
-BOT_TOKEN = os.getenv("TOKEN")  # Set this on Render.com
+BOT_TOKEN = os.getenv("7609219087:AAGT1NMeizZcSQgNGyjDLUisYNAbI75ql10")  # Set this on Render.com
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_message = update.message.text.lower()
